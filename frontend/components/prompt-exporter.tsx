@@ -12,7 +12,7 @@ export default function PromptExporter(className: any) {
 
     return (
           <PromptFieldContainer
-            title="Export"
+            title="Export and refine"
             className={cn("bg-neutral-100/40", className)}
           >
             <PromptField

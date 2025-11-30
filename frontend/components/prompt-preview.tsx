@@ -12,7 +12,7 @@ export default function PromptPreview(className: any) {
 
     return (
           <PromptFieldContainer
-            title="Preview"
+            title="Generate preview"
             className={cn("bg-neutral-100/40", className)}
           >
             <p className="text-sm">Generate a preview</p>

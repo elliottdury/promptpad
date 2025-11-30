@@ -25,7 +25,7 @@ export default function PromptBuilder(className: any) {
 
     return (
         <PromptFieldContainer
-            title="Build"
+            title="Structure and build"
             className={cn("bg-neutral-100/40", className)}
           >
             <PromptField
@@ -53,6 +53,34 @@ export default function PromptBuilder(className: any) {
 
               <PromptFieldItem value="item-2">
                 <PromptFieldTrigger>Background</PromptFieldTrigger>
+                <PromptFieldContent className="flex flex-col gap-4 text-balance">
+                  <p>Some UI elements for adding styles by typing or template</p>
+                </PromptFieldContent>
+              </PromptFieldItem>
+
+              <PromptFieldItem value="item-3">
+                <PromptFieldTrigger>Lighting</PromptFieldTrigger>
+                <PromptFieldContent className="flex flex-col gap-4 text-balance">
+                  <p>Some UI elements for adding styles by typing or template</p>
+                </PromptFieldContent>
+              </PromptFieldItem>
+
+              <PromptFieldItem value="item-4">
+                <PromptFieldTrigger>Camera angle</PromptFieldTrigger>
+                <PromptFieldContent className="flex flex-col gap-4 text-balance">
+                  <p>Some UI elements for adding styles by typing or template</p>
+                </PromptFieldContent>
+              </PromptFieldItem>
+
+               <PromptFieldItem value="item-5">
+                <PromptFieldTrigger>Modifiers</PromptFieldTrigger>
+                <PromptFieldContent className="flex flex-col gap-4 text-balance">
+                  <p>Some UI elements for adding styles by typing or template</p>
+                </PromptFieldContent>
+              </PromptFieldItem>
+
+              <PromptFieldItem value="item-6">
+                <PromptFieldTrigger>Text</PromptFieldTrigger>
                 <PromptFieldContent className="flex flex-col gap-4 text-balance">
                   <p>Some UI elements for adding styles by typing or template</p>
                 </PromptFieldContent>
